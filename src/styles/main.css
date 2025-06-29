@@ -1,0 +1,116 @@
+.navigation ul li.active a {
+  background-color: var(--text-light);
+  font-weight: 700; 
+  color: var(--primary-darker);
+}
+
+.page-header {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: var(--spacing-md) var(--spacing-sm);
+}
+.page-header-content {
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+.page-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary-darker);
+}
+
+.usaha-area, .berita-area{
+  margin-top: -4rem;  
+}
+
+
+.about-us-content {
+    padding: var(--spacing-lg) var(--spacing-sm);
+}
+.about-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+.about-us-text h2 {
+    font-size: 1.8rem;
+    color: var(--primary-darker);
+    margin-bottom: var(--spacing-sm);
+    padding-bottom: var(--spacing-xs);
+    border-bottom: 2px solid var(--primary-color);
+    display: inline-block;
+}
+.about-us-text h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: var(--spacing-sm);
+}
+.about-us-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: var(--spacing-xs);
+}
+.about-us-image img {
+    border-radius: var(--border-radius);
+    box-shadow: 0 8px 25px var(--shadow-dark);
+}
+
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-md);
+}
+.page-number, .page-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  color: var(--primary-color);
+  font-weight: 500;
+  transition: all var(--transition-speed);
+}
+.page-number:hover, .page-arrow:hover {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border-color: var(--primary-color);
+}
+.page-number.active {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border-color: var(--primary-color);
+}
+.page-arrow.disabled {
+  color: #ccc;
+  pointer-events: none;
+  border-color: #eee;
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    text-align: left;
+    padding: var(--spacing-lg) var(--spacing-sm); 
+  }
+  .page-header h1 {
+    font-size: 2.8rem;
+  }
+  .about-us-wrapper {
+      flex-direction: row;
+      align-items: center;
+  }
+  .about-us-text {
+      flex: 1.5;
+  }
+  .about-us-image {
+      flex: 1;
+  }
+}

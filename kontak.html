@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hubungi Kami - Koperasi Syariah BSM</title>
+    <meta name="description" content="Hubungi kami untuk pertanyaan, masukan, atau informasi lebih lanjut." />
+    <link rel="icon" type="image/svg+xml" href="./src/public/icon-koperasi.svg" />
+    <link rel="stylesheet" href="./src/styles/main-style.css" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="info-company">
+                <a href="index.html" class="company-icon">
+                    <img src="./src/public/icon-koperasi.svg" alt="Logo Koperasi" />
+                    <p>Koperasi Konsumen Syariah Berkah Sehat Mandiri</p>
+                </a>
+                <div class="company-sosmed">
+                    <a href="#" aria-label="Facebook"><img src="./src/public/icon-sosmed-1.svg" alt="Facebook"/></a>
+                    <a href="#" aria-label="Instagram"><img src="./src/public/icon-sosmed-2.svg" alt="Instagram"/></a>
+                    <a href="#" aria-label="Whatsapp"><img src="./src/public/icon-sosmed-3.svg" alt="Whatsapp"/></a>
+                    <a href="#" aria-label="Email"><img src="./src/public/icon-sosmed-4.svg" alt="Email"/></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navigation">
+            <div class="nav-container">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="berita.html">Berita</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li class="active"><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kontak" class="kontak-area">
+            <div class="kontak-wrapper">
+                <div class="info-kontak">
+                    <div class="section-header">
+                        <h1>Tetap Terhubung dengan <span>Kami</span></h1>
+                        <p>Tim kami siap melayani Anda. Jangan ragu untuk mengirimkan pertanyaan atau masukan.</p>
+                    </div>
+                    <form action="#">
+                        <div class="input-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda"/>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required placeholder="Masukkan email Anda"/>
+                        </div>
+                        <div class="input-group">
+                            <label for="message">Pesan</label>
+                            <textarea name="message" id="message" required placeholder="Tuliskan pesan Anda di sini"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+                <div class="map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.874172500837!2d116.13214190000001!3d-8.6080776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcb9007f1a88771%3A0xd49a222ee46d7078!2sRSUD%20Provinsi%20NTB!5e0!3m2!1sid!2sid!4v1751130990625!5m2!1sid!2sid"
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <section class="info">
+          <h3>Koperasi Konsumen Syariah RSUD NTB</h3>
+          <p>
+            Jl. Prabu Rangkasari, Dasan Cermen, Kec. Sandubaya, Kota Mataram,
+            Nusa Tenggara Barat 83232
+          </p>
+        </section>
+        <section class="layanan-footer">
+          <h3>Layanan Kami</h3>
+          <ul>
+            <li><a href="#">Minimarket & Retail</a></li>
+            <li><a href="#">Katering & Jasa Boga</a></li>
+            <li><a href="#">Fotocopy & ATK</a></li>
+            <li><a href="#">Layanan Parkir</a></li>
+          </ul>
+        </section>
+        <section class="eksplorasi">
+          <h3>Eksplorasi</h3>
+          <ul>
+            <li><a href="#">Berita Terbaru</a></li>
+            <li><a href="#">Galeri Kegiatan</a></li>
+            <li><a href="#">Syarat dan Kebijakan</a></li>
+          </ul>
+        </section>
+        <section class="kontak-footer">
+          <h3>Detail Kontak</h3>
+          <p>info@koperasirsudntb.co.id</p>
+          <p>+62 812-3456-7890</p>
+        </section>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Koperasi Konsumen Syariah RSUD NTB. All Rights Reserved.</p>
+      </div>
+    </footer>
+</body>
+</html>
